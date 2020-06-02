@@ -23,11 +23,6 @@ Thumbs.db
 node_modules
 .cache
 assets/**/*.css
-build
-lib
-es
 yarn.lock
-package-lock.json
 coverage/
 .doc
-tsconfig.json

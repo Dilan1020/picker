@@ -7,7 +7,7 @@
     "react-component",
     "react-picker"
   ],
-  "main": "./lib/index",
+  "main": "./es/index",
   "module": "./es/index",
   "files": [
     "assets/*.css",
@@ -40,10 +40,10 @@
   "dependencies": {
     "@babel/runtime": "^7.10.1",
     "classnames": "^2.2.1",
-    "moment": "^2.24.0",
     "rc-trigger": "^4.0.0",
     "rc-util": "^5.0.1",
-    "shallowequal": "^1.1.0"
+    "shallowequal": "^1.1.0",
+    "dayjs": "1.8.26"
   },
   "engines": {
     "node": ">=8.x"
@@ -58,7 +58,6 @@
     "@umijs/fabric": "^2.0.8",
     "coveralls": "^3.0.6",
     "cross-env": "^7.0.2",
-    "dayjs": "^1.8.18",
     "enzyme": "^3.0.0",
     "enzyme-adapter-react-16": "^1.0.1",
     "enzyme-to-json": "^3.4.0",

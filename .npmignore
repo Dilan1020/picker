@@ -24,6 +24,5 @@ node_modules
 examples
 tests
 src
-/index.js
 .*
 assets/**/*.less
